@@ -1,0 +1,172 @@
+
+.divStyle {
+  color: black;
+  width:100%;
+  background: url('../../image/bgimage1.png');
+  height: 100%;
+  background-size:cover;
+}
+
+
+.search{
+  font-size: 15px;
+}
+
+.dropdown{
+  border: 0px;
+  outline-style: none;
+  background: transparent;
+}
+form{
+  background-color: rgb(233, 224, 224);
+  opacity: 0.9;
+  padding: 15px;
+  margin-top: 5px;
+  
+}
+form h5{
+  color: #070707;
+  font-weight: bold;
+}
+
+.formheading{
+  color:rgb(146, 144, 143);
+  margin-top: 35px;
+  
+}
+form div.form-group{
+  margin-bottom: 20px;
+}
+.Airline_logo{
+  width: 50px;
+  text-align: left;
+
+}
+
+.fa-plane{
+  padding-left: 5px;
+  font-size: 40px;
+  position: initial;
+  color: #585759;
+}
+.fa-flip-vertical{
+  font-size: 40px;
+  position: relative;
+  color: #585759;
+}
+
+.leftside{
+  bottom: 20px;
+}
+
+.oneway{
+  color:rgb(201, 84, 5);
+  font-size: 18px;
+  border: none;
+  font-weight: bold;
+  margin-right: 15px;
+  
+}
+.form-group h5{
+  letter-spacing: 1px;
+}
+ .navbar-inverse{
+  background-image: none !important;
+  margin-bottom: 0 !important;
+  border: none!important;
+  border-radius: 0 !important;
+  min-height:0 !important;
+  padding-top:0 !important;
+ }
+ .navbar-inverse ul{
+margin-top: 0 !important;
+ }
+
+.navbar-inverse li a{
+  font-size:12px;
+  letter-spacing: 1px;
+  
+}
+.navbar-default{
+  background-color: rgb(216, 103, 27) !important;
+  border-radius: 0 !important;
+  background-image: none !important;
+  border: none!important;
+  padding: 17px;
+  margin-bottom: 0 !important;
+  
+}
+.navbar-brand{
+  height: 100% !important;
+  color: rgb(251, 250, 252) !important;
+  font-size: 20px !important;
+}
+.navbar-brand  i{
+  color:rgb(6, 55, 75)
+}
+.navbar-brand span{
+  color:rgb(6, 55, 75);
+  font-weight: bold;
+}
+ ul li{
+  background-color: transparent;
+  font-size: 18px;
+ font-weight: 700;
+}
+.navbar-nav{
+  margin-top: 20px !important;
+  
+}
+.navbar-default .navbar-nav > li > a{
+  color: rgb(241, 235, 235) !important;
+  letter-spacing: 1px;
+  line-height: 1px;
+  text-shadow:none!important; 
+  margin-right: 30px !important;
+  margin-bottom: 10px;
+}
+  .navbar-default .navbar-nav > li > a:hover{
+    color:rgb(6, 55, 75)!important;
+}
+.rowmain{
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.active{
+
+color: rgb(224, 152, 17);
+}
+
+.react-datepicker {
+  font-size: 1.2rem !important;
+}
+
+.react-datepicker__current-month {
+  font-size: 1.4rem !important;
+}
+
+.react-datepicker__header {
+  padding-top: 6px !important;
+  
+}
+
+.react-datepicker__navigation {
+  top: 13px !important;
+}
+
+.react-datepicker__day-name, .react-datepicker__day {
+  margin: 0.5rem !important;
+}
+
+.capital{
+  text-transform: capitalize;
+  color: rgb(21, 148, 127)!important;
+}
+.welcome{
+  margin-right:5px;
+  color:  #b67520;
+}
+
+.welcome:hover{
+  color:  #b67520;
+}

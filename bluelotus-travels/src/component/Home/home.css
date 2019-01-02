@@ -1,0 +1,26 @@
+.home-p{
+    
+    background-color: rgb(78, 75, 75);
+    opacity: 0.8;
+    margin-top:2%;
+    font-size: 20x;
+    padding: 30px;
+    color: rgb(247, 242, 242);
+    vertical-align: middle;
+    letter-spacing: 2px;
+    line-height: 150%;
+
+   }
+
+   .home-main{
+       font-size:25px;
+       margin-top: 10%;
+       font-style: italic;
+       color: rgb(6, 55, 75);
+       font-weight: bold;
+   }
+
+  .home-main span{
+       font-size: 30px;
+       color:rgb(216, 103, 27);
+   }
