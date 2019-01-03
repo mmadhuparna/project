@@ -6,7 +6,7 @@ import {connect} from "react-redux"
 import Sidebar from 'react-sidebar';
 import Sort from './sort';
 import Searchtitle from './SearchTitle';
-import BookingDetails from './bookingDetails';
+//import BookingDetails from './bookingDetails';
 
 class AvailableFlightsRet extends Component{
   constructor(){
@@ -64,7 +64,7 @@ class AvailableFlightsRet extends Component{
           <FilterOptions  />
           </div>
           
-          <div className="col-md-9 col-sm-12 col-xs-12 searchdet">
+          <div className="col-md-9 col-sm-12 searchdet">
            <div className="row rowleft">
             <span><button className="shrinkFilter btn btn-info " onClick={(e) => {let ps = this.state.sidebarOpen;this.setState({sidebarOpen:!ps})}}>FILTER</button></span>
               <Sort />
@@ -75,7 +75,7 @@ class AvailableFlightsRet extends Component{
           </div>
           <div className="row">
           <div className="col-md-12 bg">
-          <BookingDetails/>
+          
           </div>
           </div>
           </div>

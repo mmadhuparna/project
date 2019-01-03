@@ -24,30 +24,28 @@ class ShowFlight extends Component{
            <div className="booking-item-container">
              <div className="booking-item" onClick={() => {let ps = this.state.display;ps=!ps;this.setState({display:ps});console.log(this.state.display);}}>
                <div className="row rowlink">
-                 <div className="col-md-2 col-sm-2 col-xs-2">
+                 <div className="col-md-2 col-sm-2 col-lg-2">
                    <div className="booking-item-airline-logo">
                      <p>{this.props.carrier}</p>
                    </div>
                  </div>
-                 <div className="col-md-2 col-sm-2 col-xs-2 ">
+                 <div className="col-md-2 col-sm-2 col-lg-2 ">
                     <p>{this.props.departure_time}</p>
-                    <p>{this.props.city}</p>
-                       
+                    
                  </div>
 
-                 <div className="col-md-2 col-sm-2 col-xs-2 booking-item-arrival">
+                 <div className="col-md-2 col-sm-2 col-lg-2 booking-item-arrival">
                     <p>{this.props.arrival_time}</p>
-                    <p>{this.props.city}</p>
-                 
+                   
                  </div>
 
-                 <div className="col-md-2 col-sm-2 col-xs-2 showTotalTime">
+                 <div className="col-md-2 col-sm-2 col-lg-2 showTotalTime">
                    <p>{this.props.duration}</p>
                    <p>{this.stops}</p>
                  </div>
 
-                 <div className="col-md-2 col-sm-2 showFareAndBook">
-                   <span className="booking-item-price"><i className="fa fa-inr"></i>{this.props.total}</span><span></span>
+                 <div className="col-md-2 col-sm-2 col-lg-2 showFareAndBook">
+                   <span className="booking-item-price"><i className="fa fa-inr"></i>{this.props.total}</span>
                    </div>
                    <div className="col-md-2 col-sm-2 col-xs-2 ">
                    <button className="submit " type="submit" onClick={this.handleSelect.bind(this)}>Select</button>

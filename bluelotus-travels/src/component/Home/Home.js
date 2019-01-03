@@ -16,6 +16,7 @@ class Home extends Component {
 
     render(){
         return (
+          
       <div className="row rowmain" style={divStyle}>
       <div className="col-md-8 col-md-offset-2 ">
       

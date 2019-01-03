@@ -80,8 +80,13 @@ handlerSubmit(){
         Origin_Code : this.state.from.value,
         Dest_Code : this.state.to.value,
         start_Date: year+ month + dt,
-        end_date : year+ month + dt
+        end_date : year+ month + dt,
+        o_city: this.state.from.name,
+        d_city: this.state.to.name,
+        origin_date: dt+"-"+month+"-"+year,
+       
       }
+      
      
       this.props.dispatch(fetchData(data));
       browserHistory.push("/available-flights")
@@ -116,11 +121,11 @@ render() {
         <div className="form-group">
 							
 								<h5>From</h5>
-                <Select name="from_airport" className="class1" value={this.state.from} options={this.props.airport_details} filterOptions={filterOptions} onChange={this.handleInput.bind(this)}  placeholder="Type Departure City"/>
+                <Select name="from_airport" className="class1" value={this.state.from} name={JSON.stringify(this.state.from)} options={this.props.airport_details} filterOptions={filterOptions} onChange={this.handleInput.bind(this)}  placeholder="Type Departure City"/>
 							</div>
 							<div className="form-group">
 								<h5>To</h5>
-								  <Select name="to_airport" className="class1" value={this.state.to} options={this.props.airport_details} filterOptions={filterOptions} onChange={this.handleInput2.bind(this)} placeholder="Type Destination City"/>
+								  <Select name="to_airport" className="class1" value={this.state.to} name={JSON.stringify(this.state.to)} options={this.props.airport_details} filterOptions={filterOptions} onChange={this.handleInput2.bind(this)} placeholder="Type Destination City"/>
 							</div>
 							<div className="clear"></div>
 							

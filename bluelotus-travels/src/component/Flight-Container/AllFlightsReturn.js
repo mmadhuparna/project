@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
 import ShowFlightRet from './ShowFlightRet';
-import bookingDetails from './bookingDetails';
+//import bookingDetails from './bookingDetails';
 
 
 class AllFlightsReturn extends Component{

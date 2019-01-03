@@ -9,13 +9,19 @@
     
     
   }
+  .para{
+    color: rgb(161, 75, 17);
+  }
+  .heading5{
+    color: rgb(121, 119, 119);
+  }
   .scroll{
     overflow-y: scroll;
     height: 100vh;
   }
   .srhtitle{
-    background-color: white;
-    margin-bottom: 10px;
+    color: white;
+    
     margin-left: 10px;
     text-align: center;
 
@@ -53,13 +59,13 @@
   .booking-item-container{
     padding-top: 10px;
     padding-bottom: 10px;
-    background-color: rgb(239, 248, 248);
+    background-color: rgb(218, 226, 226);
     font-size: 15px;
     margin-bottom: 10px;
     
   }
   .booking-item-container:hover{
-    background-color: rgb(44, 207, 153)
+    background-color: rgb(145, 151, 149)
   }
   .booking-item-container.active{ 
     background-color: rgb(44, 207, 153)!important
@@ -77,9 +83,7 @@
   }
   .booking-item{
     width: 100%;
-    
-    
-    display: inline-block;
+        display: inline-block;
     padding: 10px;
   }
   
@@ -139,28 +143,42 @@ margin-left: 0;
     padding-left: 0;
     padding-right: 0;
   }
+  .custom-check{
+    color: #000;
+    font-size: 13px !important;
+    font-weight: 300;
+  }
   .border{
 border-right: 1px solid rgb(53, 52, 52);
   }
    #Filters{
-    
-    
-    
-    margin-top: 50px;
-   padding-right: 10px;
-   padding-left: 0;
-   height: 100%;
+   
+   height: 100% !important;
+   padding-top: 0;
+   background-color:rgb(6, 55, 75);
+   box-sizing: border-box;
+   z-index: 1;
    
    
     
   }
   .filteroptions{
-    background-color:rgb(179, 51, 51);
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color:rgb(6, 55, 75);
+    box-sizing: border-box;
     
+    
+  }
+  .filterheading{
+    color: rgb(196, 187, 187);
   }
   #Filters ul{
     color: #f0f0f0;
+    margin-top: 0 !important;
+    padding-top: 0 !important;
   }
+  
   .submit{
     background-color: rgb(179, 51, 51);
   
@@ -176,11 +194,12 @@ border-right: 1px solid rgb(53, 52, 52);
    
   }
   .grey{
-    background-color: #585759;
+    background-color: #565657;
   }
   .details{
-    background-color: white;
-    margin-top: 10px;
+    background-color: #D3D3D3;
+    margin:10px 0;
+    color: #000;
   }
   .mobile{
     display: none;
@@ -191,9 +210,7 @@ border-right: 1px solid rgb(53, 52, 52);
     .fa-flip-vertical{
       bottom: 5px;
     }
-    #Filters{
-      height: 850px;
-    }
+    
     .submit {
       padding: 5px;
      }
@@ -216,7 +233,7 @@ border-right: 1px solid rgb(53, 52, 52);
         padding-left: 20px;
       }
       .sidebar{
-          background-color: rgb(179, 51, 51);
+          background-color: rgb(6, 55, 75);
           padding: 5px;
           display: block;
       }
@@ -250,31 +267,31 @@ border-right: 1px solid rgb(53, 52, 52);
   }
   
   .booking-item-airline-logo p{
-    width: 100%;
+    
     font-size: 14px;
     color: rgb(153, 17, 17);
     font-weight: 600;
   }
   
   .booking-item-departure{
-    width: 100%;
+    
     font-weight: bold;
   }
   
   .booking-item-arrival{
-    width: 100%;
+    
     font-weight: bold;
   }
   
-  .showTotalTime{
+  /*.showTotalTime{
     width: 100%;
     
   
-  }
+  }*/
   
-  .showFareAndBook{
+  /*.showFareAndBook{
     width: 100%;
-  }
+  }*/
   
   .booking-item-destination{
     bottom: 10px;

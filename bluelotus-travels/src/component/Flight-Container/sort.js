@@ -10,8 +10,8 @@ class Sort extends Component{
         <span className="nav-drop booking-sort "><strong>SORT:</strong>
                 
                   <select className="nav-drop-menu dropdown" name="Sort">
-                    <option value="Price">Price(Low To High) onClick={this.clickSort.bind(this, 'total')}</option>
-                    <option value="Duration">Duration onClick={this.clickSort.bind(this, 'duration')}</option>
+                    <option value="Price" onClick={this.clickSort.bind(this, 'total')}>Price(Low To High) </option>
+                    <option value="Duration" onClick={this.clickSort.bind(this, 'duration')}>Duration </option>
                     <option value="Stops">Stops</option>
                     <option value="Arrival">Arrival</option>
                     <option value="Departure">Departure</option>
