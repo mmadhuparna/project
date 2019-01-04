@@ -26,24 +26,26 @@ class ShowFlightRet extends Component{
                <div className="row ">
                  <div className="col-md-2 col-sm-2 col-xs-2">
                    <div className="booking-item-airline-logo">
-                     <p>{this.props.carrier}</p>
-                     <p>{this.props.flightcode}</p>
+                   <center><p>{this.props.carrier}</p>
+                     <p className="nbold">{this.props.flightcode}</p></center>
                    </div>
                  </div>
                  <div className="col-md-2 col-sm-2 col-xs-2 ">
-                   <p>{this.props.departure_time}</p>
-                   <p>{this.props.stops}</p> 
+                 <center> <p>{this.props.departure_time}</p>
+                   <p className="nbold">{this.props.stops+"stops"}</p> </center>
                  </div>
 
                  <div className="col-md-2 col-sm-2 col-xs-2 booking-item-arrival">
-                    <p>{this.props.arrival_time}</p>
-                    <p>{this.props.duration}</p>
+                    <center><p className = 'bold'>{this.props.arrival_time}</p>
+                    <p className="nbold">{this.props.duration}</p></center>
                 </div>
 
-                 <div className="col-md-2 col-sm-2 showFareAndBook">
-                   <span className="booking-item-price"><i className="fa fa-inr"></i>{this.props.total}</span><span></span>
+                 <div className="col-md-3 col-sm-3 showFareAndBook">
+                 <center> <span className="booking-item-price"><i className="fa fa-inr"></i>{this.props.total}</span></center>
                    </div>
-                   
+                   <div className="col-md-3 col-sm-3 col-xs-2 ">
+                   <center> <button className="submit " type="submit" onClick={this.handleSelect.bind(this)}>Select</button></center>
+                 </div>
                </div>
 {/*
                <div className="row mobile">

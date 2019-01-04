@@ -26,6 +26,23 @@
     text-align: center;
 
   }
+  .vrr{
+    border-right:5px solid white;
+  }
+  .titleret{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .nbold{
+    font-weight: 100;
+  }
+  .rtdetail{
+    padding-left: 15px;
+  }
+  .vrmain{
+    border-right:1px solid rgb(167, 165, 165);
+  }
   .dropdown{
     border: 0px;
     outline-style: none;

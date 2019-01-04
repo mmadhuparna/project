@@ -56,16 +56,18 @@ onclick(){
   }
   render(){
     return (
-      <div className="row rowleft scroll">
-      <div className="col-md-6 no-padding vr">
-      <p>{this.props.tripsDetails.o_city} to {this.props.tripsDetails.d_city}</p>
-      <p> on {this.props.departure_date}</p>
-      {this.state.data}
+      <div className="row rowleft">
+      <div className="col-md-6 no-padding  ">
+      <p className="rtdetail">{this.props.tripsDetails.o_city} to {this.props.tripsDetails.d_city} on {this.props.rtripsDetails.date}</p>
+      <p className="para" style={{paddingLeft:"15px"}}>{this.props.flights.length +" "+ "Flights"}</p>
+      <div className="vrmain">
+      {this.state.data}</div>
      
       </div>
       <div className="col-md-6 no-padding">
-      <p>{this.props.tripsDetails.d_city} to {this.props.tripsDetails.o_city}</p>
-      <p> on {this.props.arrival_date}</p>
+      <p className="rtdetail">{this.props.tripsDetails.d_city} to {this.props.tripsDetails.o_city} on {this.props.rtripsDetails.retdate}</p>
+     
+      <p className="para" style={{paddingLeft:"15px"}}>{this.props.returnflights.length +" "+ "Flights"}</p>
       {this.state.returndata}
       </div>
       </div>
