@@ -6,9 +6,17 @@
    padding-left: 0;
    padding-right: 0;
     margin: 0;
+    overflow-x: hidden;
     
     
   }
+  .searchdet::-webkit-scrollbar{
+    width: 5px;
+    background-color: rgb(65, 60, 124);
+    border-radius: 3px;
+  }
+
+  
   .para{
     color: rgb(161, 75, 17);
   }
@@ -170,20 +178,17 @@ border-right: 1px solid rgb(53, 52, 52);
   }
    #Filters{
    
-   height: 100% !important;
    padding-top: 0;
    background-color:rgb(6, 55, 75);
    box-sizing: border-box;
    z-index: 1;
-   
-   
-    
+  
   }
   .filteroptions{
     padding-left: 10px;
     padding-right: 10px;
     background-color:rgb(6, 55, 75);
-    box-sizing: border-box;
+    
     
     
   }
@@ -332,7 +337,7 @@ border-right: 1px solid rgb(53, 52, 52);
 }
 .duration{
   width:500px;
-  border-bottom:1px dashed black; 
+  
   
 }
   }

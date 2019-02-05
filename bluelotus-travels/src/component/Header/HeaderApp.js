@@ -9,7 +9,7 @@ class HeaderApp extends React.Component {
       <div>
 
         <Header
-          user={this.props.user}
+          user={this.props.user} 
         />
 
             {this.props.children}

@@ -21,6 +21,7 @@ import {LoginPage} from './component/Login-Register/login'
 import {UserAccount} from './component/Login-Register/account'
 import {RegisterPage} from './component/Login-Register/register'
 import { connect } from 'react-redux';
+import { authentication } from './Reducers/authenticationReducer';
 
 var divStyle = {
   color: 'black',
@@ -29,6 +30,7 @@ var divStyle = {
   height:'100%',
   padding:0,
   margin:0,
+  
   
   
 };

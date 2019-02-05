@@ -13,9 +13,11 @@ class ShowFlightRet extends Component{
   {
     this.props.dispatch({type: 'ADDED_FALSE'})
     console.log(this.props.id);
-    this.props.dispatch({type: 'ADD_CONTACT_FULFIELD',payload: this.props.total})
-    browserHistory.push("/book-flight");
+    this.props.dispatch({type: 'ADD_CONTACT_FULFIELD',payload: this.props.total});
+    
   }
+
+  
   render(){
      return (
       //show flight details
@@ -63,7 +65,7 @@ class ShowFlightRet extends Component{
 */}
              </div>
 
-            {/*
+            
             {this.state.display ? (
              <div id="Fligh_Details" className="booking-item-details">
                <div className="row">
@@ -85,7 +87,7 @@ class ShowFlightRet extends Component{
              </div>
            ) : null
            }
-          */}
+          
            </div>
          </li>
        </ul>
@@ -95,10 +97,9 @@ class ShowFlightRet extends Component{
 }
 function mapStateToProps(state) {
   return {
-           added: state.addContact.bookFlight.added,
+           added: state.addContact.bookFlight,
            airports: state.airport_details.airportsname,
            flights: state.available_flight.flights,
-           
            tripsDetails: state.available_flight.trips
          }
 }
